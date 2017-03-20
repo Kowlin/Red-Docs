@@ -2,7 +2,7 @@
 title: Install on Alpine
 sidebar: red_sidebar
 permalink: /red_install_alpine/
-last_updated: May 19, 2016
+last_updated: Mar 20, 2016
 description: A guide for installing Red on Alpine.
 ---
 
@@ -33,6 +33,13 @@ From there select ``Install requirements`` and select 1 or 2
 ## Running the bot
 
 Enter the bot directory and start the launcher, then select option 1 or 2 and follow the initial setup.
+```
+python3 launcher.py
+```
+
+## Updating the bot
+
+To update the bot enter the bot directory and start the launcher,  then select ``Install requirements`` and select 1 or 2
 ```
 python3 launcher.py
 ```
